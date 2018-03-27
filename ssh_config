@@ -1,1 +1,730 @@
-/home/mpiesio/.ssh/config
+ControlMaster auto
+ControlPath /tmp/ssh_mux_%h_%p_%r
+ControlPersist 8h
+TCPKeepAlive no
+ServerAliveInterval 60
+ServerAliveCountMax 10
+GSSAPIAuthentication no
+
+# MULTIWIRE
+
+Host multiwire_tt_ldapmw
+	Hostname	192.168.126.132
+	User	mpiesio
+Host multiwire_tt_lux.tt.com.pl_DEMO_apache_proxy
+	Hostname	192.168.63.239
+	User	root
+Host multiwire_tt_lux.tt.com.pl_DEMO
+	Hostname	192.168.62.112
+	User	root
+Host multiwire_tt_mqm8
+	Hostname	192.168.126.130
+	User	mpiesio
+Host multiwire_tt_oracle-test
+	Hostname	192.168.123.129
+	User	mpiesio
+Host multiwire_tt_rac1
+	Hostname	192.168.126.201
+	User	mpiesio
+Host multiwire_tt_rac2
+	Hostname	192.168.126.202
+	User	mpiesio
+Host multiwire_tt_Nagios_OMD_check_mk
+	Hostname	192.168.126.61
+	User	root
+Host multiwire_tt_oracle12c-test
+	Hostname	192.168.123.130
+	User	mpiesio
+Host multiwire_tt_oracle12c
+	Hostname	192.168.126.230
+	User	mpiesio
+Host multiwire_3wings_lux1
+	Hostname	192.168.121.5
+	User	mpiesio
+Host multiwire_3wings_lux2
+	Hostname	192.168.121.6
+	User	mpiesio
+Host multiwire_Alpiq_lux1-test
+	Hostname	192.168.120.20
+	User	mpiesio
+Host multiwire_Alpiq_lux1
+	Hostname	192.168.121.21
+	User	mpiesio
+Host multiwire_Alpiq_lux3
+	Hostname	192.168.121.23
+	User	mpiesio
+Host multiwire_Alpiq_lux4
+	Hostname	192.168.121.24
+	User	mpiesio
+Host multiwire_Anrychow_lux1
+	Hostname	192.168.121.37
+	User	mpiesio
+Host multiwire_AXPO_lux1
+	Hostname	192.168.121.213
+	User	mpiesio
+Host multiwire_Azoty_lux1
+	Hostname	192.168.121.85
+	User	mpiesio
+Host multiwire_Cez_lux1-test
+	Hostname	192.168.120.69
+	User	mpiesio
+Host multiwire_Cez_lux1
+	Hostname	192.168.121.69
+	User	mpiesio
+Host multiwire_Cez_lux2
+	Hostname	192.168.121.70
+	User	mpiesio
+Host multiwire_Cez_lux4
+	Hostname	192.168.121.73
+	User	mpiesio
+Host multiwire_Dalkia_lux2
+	Hostname	192.168.125.86
+	User	mpiesio
+Host multiwire_Danske_lux1
+	Hostname	192.168.121.149
+	User	mpiesio
+Host multiwire_Duon_lux1
+	Hostname	192.168.125.213
+	User	mpiesio
+Host multiwire_Elektrim_lux1
+	Hostname	192.168.125.69
+	User	mpiesio
+Host multiwire_Elektrix_lux1-test
+	Hostname	192.168.124.145
+	User	mpiesio
+Host multiwire_Elektrix_lux1
+	Hostname	192.168.125.149
+	User	mpiesio
+Host multiwire_Elektrix_lux2
+	Hostname	192.168.125.150
+	User	mpiesio
+Host multiwire_Enefit_lux1
+	Hostname	192.168.121.244
+	User	mpiesio
+Host multiwire_Energie2_lux1
+	Hostname	192.168.121.117
+	User	mpiesio
+Host multiwire_Energymatch_lux-match1
+	Hostname	192.168.122.33
+	User	mpiesio
+Host multiwire_ENGIE_GDF_eze_lux1-crm
+	Hostname	192.168.121.200
+	User	root
+Host multiwire_ENGIE_GDF_eze_lux1-test
+	Hostname	192.168.124.161
+	User	mpiesio
+Host multiwire_ENGIE_GDF_eze_lux1
+	Hostname	192.168.121.197
+	User	mpiesio
+Host multiwire_ENGIE_GDF_eze_lux2
+	Hostname	192.168.121.198
+	User	mpiesio
+Host multiwire_ENGIE_GDF_eze_lux3
+	Hostname	192.168.121.199
+	User	mpiesio
+Host multiwire_ENGIE_GDF_eze_lux4
+	Hostname	192.168.121.201
+	User	mpiesio
+Host multiwire_Eniq_lux1
+	Hostname	192.168.121.53
+	User	mpiesio
+Host multiwire_Europolgaz_mro1
+	Hostname	192.168.122.83
+	User	mpiesio
+Host multiwire_EZE_lux1
+	Hostname	192.168.125.117
+	User	mpiesio
+Host multiwire_Ezpada_lux1
+	Hostname	192.168.125.37
+	User	mpiesio
+Host multiwire_Fiten_lux1
+	Hostname	192.168.125.53
+	User	mpiesio
+Host multiwire_Fortum_lux1
+	Hostname	192.168.125.101
+	User	mpiesio
+Host multiwire_JAS_budapeszt_lux1
+	Hostname	192.168.125.197
+	User	mpiesio
+Host multiwire_JWM_lux1
+	Hostname	192.168.125.165
+	User	mpiesio
+Host multiwire_Mercuria_-_Getentra_lux1
+	Hostname	192.168.121.165
+	User	mpiesio
+Host multiwire_Mercuria_-_Getentra_lux2
+	Hostname	192.168.121.166
+	User	mpiesio
+Host multiwire_Mercuria_-_Getentra_lux-mercuria1
+	Hostname	192.168.120.85
+	User	mpiesio
+Host multiwire_MMI_MMI_enrex_prod
+	Hostname	192.168.122.69_
+	User	mpiesio
+Host multiwire_MMI_MMI_get_prod
+	Hostname	192.168.122.70
+	User	mpiesio
+Host multiwire_PGNiG_lux1
+	Hostname	192.168.125.229
+	User	mpiesio
+Host multiwire_PGNiG_zpgluxtradecornus
+	Hostname	10.88.2.189
+	User	mpiesio
+Host multiwire_PKP_lux1
+	Hostname	192.168.121.228
+	User	mpiesio
+Host multiwire_Polenergia_KIH_lux1
+	Hostname	192.168.125.5
+	User	mpiesio
+Host multiwire_Polenergia_KIH_lux2
+	Hostname	192.168.125.8
+	User	mpiesio
+Host multiwire_Polenergia_KIH_lux3
+	Hostname	192.168.125.9
+	User	mpiesio
+Host multiwire_Polenergia_KIH_lux-test_MRO
+	Hostname	192.168.124.9
+	User	mpiesio
+Host multiwire_Polenergia_KIH_lux-test
+	Hostname	192.168.124.8
+	User	mpiesio
+Host multiwire_Polenergia_KIH_mro1
+	Hostname	192.168.125.12
+	User	mpiesio
+Host multiwire_Polenergia_KIH_proxy-as4-kih-test
+	Hostname	192.168.124.11
+	User	mpiesio
+Host multiwire_Polenergia_KIH_Proxy-AS4-kih
+	Hostname	192.168.125.4
+	User	mpiesio
+Host multiwire_ppenergia_lux1
+	Hostname	192.168.122.115
+	User	mpiesio
+Host multiwire_Statkraft_lux1
+	Hostname	192.168.121.133
+	User	mpiesio
+Host multiwire_Trailstone_lux1
+	Hostname	192.168.121.181
+	User	mpiesio
+Host multiwire_exen_lux1_test
+	Hostname	192.168.120.138
+	User	mpiesio
+
+# ITIL
+
+Host itil_tt_raspberry_na_scianie
+	Hostname	192.168.128.170
+	User	pi
+Host itil_tt_docker_62.253
+	Hostname	192.168.62.253
+	User	mpiesio
+Host itil_tt_smb_public_62.14
+	Hostname	192.168.62.14
+	User	root
+Host itil_tt_servicelink_app_test_62.6
+	Hostname	192.168.62.6
+	User	mpiesio
+Host itil_tt_gdf.ssc_62.48
+	Hostname	192.168.62.48
+	User	mpiesio
+Host itil_tt_LDAP_ITIL_62.40
+	Hostname	192.168.62.40
+	User	mpiesio
+Host itil_tt_Nagios_old_63.30
+	Hostname	192.168.63.30
+	User	root
+Host itil_tt_Nowy_nagios_check_mk_63.61
+	Hostname	192.168.63.61
+	User	root
+Host itil_tt_oracle-prod-itil_DB_62.251
+	Hostname	192.168.62.251
+	User	mpiesio
+Host itil_tt_PGNIG-MQ-1_62.77
+	Hostname	192.168.62.77
+	User	root
+Host itil_tt_PSS_IPA_Centos7_62.99
+	Hostname	192.168.62.99
+	User	root
+
+# EDF
+
+Host EDF_edf_dev_srvkradevport01
+	Hostname	172.19.5.124
+	User	root
+Host EDF_lux1_prod
+	Hostname	mpiesio#lux1-prod@172.19.14.35
+	User	zx789kmKM
+Host EDF_EDF_srvkracedr01
+	Hostname	172.19.5.116
+	User	root
+Host EDF_EDF_srvkralux01
+	Hostname	172.19.5.115
+	User	root
+Host EDF_EDF_srvkraport01
+	Hostname	172.19.5.117
+	User	root
+Host EDF_EDF_srvrybcedr01
+	Hostname	172.21.2.68
+	User	root
+Host EDF_EDF_srvryblux01
+	Hostname	10.49.61.1
+	User	root
+Host EDF_EDF_srvrybmro01
+	Hostname	172.21.2.71
+	User	root
+Host EDF_EDF_srvrybora01
+	Hostname	172.21.2.40
+	User	root
+Host EDF_EDF_srvrybora02
+	Hostname	172.21.2.41
+	User	root
+Host EDF_EDF_srvrybport01
+	Hostname	172.21.2.69
+	User	root
+Host EDF_EDF_srvrybsowe01
+	Hostname	172.21.2.70
+	User	root
+Host EDF_srvryblux01-dev
+	Hostname	172.21.2.144
+	User	root
+Host EDF_srvkradevlux01_taxus_dev
+	Hostname	172.19.5.122
+	User	root
+Host EDF_srvkradevmro01_mro
+	Hostname	172.19.5.123
+	User	root
+Host EDF_srvkratstlux01_taxus_test
+	Hostname	172.19.5.115
+	User	root
+Host EDF_srvrybcedr01_midoss
+	Hostname	172.21.2.68
+	User	root
+Host EDF_srvryblux01
+	Hostname	172.21.2.67
+	User	root
+Host EDF_srvrybmro01_mro
+	Hostname	172.21.2.71
+	User	root
+
+# ENEA_Kozienice
+
+Host ENEA_Kozienice_AIX_CRD1_v-csb-p-luxhurtdb1
+	Hostname	10.30.26.86
+	User	oracle
+Host ENEA_Kozienice_AIX_LUX1_v-csb-p-luxdb1
+	Hostname	10.30.26.81
+	User	oracle
+Host ENEA_Kozienice_AIX_LUX2_v-csb-p-luxdb2
+	Hostname	10.30.26.82
+	User	oracle
+Host ENEA_Kozienice_ENEA_dev_v-csb-p-risk
+	Hostname	10.96.5.60
+	User	mpiesio
+Host ENEA_Kozienice_lux
+	Hostname	10.96.5.91
+	User	mpiesio
+Host ENEA_Kozienice_lux2-test
+	Hostname	10.96.5.92
+	User	mpiesio
+Host ENEA_Kozienice_ENEA_midoss
+	Hostname	10.96.5.55
+	User	mpiesio
+Host ENEA_Kozienice_ENEA_oracle2
+	Hostname	10.96.5.32
+	User	root
+Host ENEA_Kozienice_ENEA_v-csb-p-cedrus
+	Hostname	10.96.5.53
+	User	mpiesio
+Host ENEA_Kozienice_ENEA_v-csb-p-taxus
+	Hostname	10.96.5.50
+	User	mpiesio
+
+# GDF
+
+Host GDF_bl0-ora1
+	Hostname	10.77.40.121
+	User	root
+Host GDF_luxtest
+	Hostname	10.77.40.190
+	User	mpiesio
+Host GDF_GDF_Taxus
+	Hostname	10.77.40.13
+	User	mpiesio
+
+# Landis
+
+Host Landis_landis_panel
+	Hostname	10.170.27.19
+	User	mpiesio
+
+# Opole
+
+Host Opole_ora1_lrdclu-n1_opole
+	Hostname	172.20.1.41
+	User	mpiesio
+Host Opole_ora2_lrdclu-n2_opole
+	Hostname	172.20.1.42
+	User	mpiesio
+
+# Orlen
+
+Host Orlen_bplaluxp1
+	Hostname	10.1.104.91
+	User	ORLEN\piesiom
+Host Orlen_bplaluxp2
+	Hostname	10.1.104.92
+	User	ORLEN\piesiom
+Host Orlen_bplaluxp3
+	Hostname	10.1.7.95
+	User	ORLEN\piesiom
+Host Orlen_bplaluxp4
+	Hostname	172.30.28.42
+	User	ORLEN\piesiom
+Host Orlen_bplaluxp6
+	Hostname	10.1.104.28
+	User	ORLEN\piesiom
+Host Orlen_bplaluxt1
+	Hostname	10.1.104.124
+	User	ORLEN\piesiom
+Host Orlen_bplaluxt2
+	Hostname	10.1.104.125
+	User	ORLEN\piesiom
+Host Orlen_ORLEN_bplaluxt3
+	Hostname	10.1.104.192
+	User	ORLEN\piesiom
+
+# PAK
+
+Host PAK_PAK_oracle_prod_portfwd
+	Hostname	192.168.123.199
+    Port 1522
+	User	root
+Host PAK_PAK_taxus_prod_portfwd
+	Hostname	192.168.123.199
+    Port 2219
+	User	mpiesio
+Host PAK_PAK_TEST_portfwd
+	Hostname	192.168.123.199
+    Port 1155
+	User	mpiesio
+
+# PGE
+
+Host PGE_lux1z
+	Hostname	10.43.120.3
+	User	mpiesio
+Host PGE_midoss1z
+	Hostname	10.43.120.5
+	User	mpiesio
+Host PGE_midoss2z
+	Hostname	10.43.120.6
+	User	mpiesio
+Host PGE_PGE_rac1z
+	Hostname	10.43.121.1
+	User	mpiesio
+Host PGE_PGE_rac2z
+	Hostname	10.43.121.2
+	User	root
+Host PGE_sowewire1z
+	Hostname	10.43.120.1
+	User	mpiesio
+Host PGE_CTRM_DB_prod
+	Hostname	10.49.62.2
+	User	root
+Host PGE_PGE_CTRM_c003s1825_LUX1
+	Hostname	10.49.60.1
+	User	root
+Host PGE_PGE_CTRM_c003s1826_LUX2
+	Hostname	10.49.60.2
+	User	root
+Host PGE_PGE_CTRM_c003s1828_LUX4
+	Hostname	10.49.60.4
+	User	root
+Host PGE_PGE_CTRM_c003s1829_LUX5
+	Hostname	10.49.60.5
+	User	root
+Host PGE_PGE_CTRM_c003s1830_LUX6
+	Hostname	10.49.60.6
+	User	root
+Host PGE_PGE_CTRM_c003s1831_LUX7
+	Hostname	10.49.200.104
+	User	root
+Host PGE_PGE_CTRM_c003s1832_LUX8
+	Hostname	10.49.60.7
+	User	root
+Host PGE_PGE_CTRM_c003s1836_LUX15
+	Hostname	10.49.60.10
+	User	root
+Host PGE_PGE_CTRM_c003s1837_LUX16
+	Hostname	10.49.200.107
+	User	root
+Host PGE_PGE_CTRM_c003s1840_LUX17
+	Hostname	10.49.200.106
+	User	root
+Host PGE_PGE_CTRM_c003s1860_oracle1p
+	Hostname	10.49.62.2
+	User	oracle
+Host PGE_PGE_CTRM_c003s1862_oracle1z
+	Hostname	10.149.62.2
+	User	oracle
+Host PGE_PGE_CTRM_c003s1862_oracle2z
+	Hostname	10.149.62.3
+	User	oracle
+Host PGE_PGE_CTRM_c003s1864_oracle2p
+	Hostname	10.49.62.3
+	User	oracle
+Host PGE_PGE_CTRM_c003s7140_LUX3
+	Hostname	10.49.60.3
+	User	root
+Host PGE_PGE_CTRM_ldap_Marsa
+	Hostname	10.49.60.12
+	User	root
+Host PGE_PGE_CTRM_ldap_Mory
+	Hostname	10.49.60.13
+	User	root
+Host PGE_PGE_c003s1748_test
+	Hostname	10.49.110.3
+	User	root
+Host PGE_PGE_c003s7138_test
+	Hostname	10.49.61.1
+	User	root
+Host PGE_PGE_CTRM_c003s7140_LUX3_test
+	Hostname	10.49.61.3
+	User	root
+Host PGE_PGE_CTRM_c003s7144_LUX7_test
+	Hostname	10.49.200.109
+	User	root
+Host PGE_c003s7197_oracletest2p
+	Hostname	10.49.120.2
+	User	root
+Host PGE_PGE_DM_c003s3001_tax_adm_broker
+	Hostname	10.49.117.1
+	User	root
+Host PGE_PGE_DM_c003s3002_midoss
+	Hostname	10.49.117.2
+	User	root
+Host PGE_PGE_DM_c003s3003_dmz
+	Hostname	10.49.200.111
+	User	root
+Host PGE_PGE_DM_c003s3004_LDAP
+	Hostname	10.49.117.3
+	User	root
+Host PGE_PGE_DM_c003s3005_NFS_Marsa
+	Hostname	10.49.117.4
+	User	root
+Host PGE_PGE_DM_c003s3006_LDAP_Mory
+	Hostname	10.49.117.5
+	User	root
+Host PGE_PGE_DM_c003s3007_NFS_Mory
+	Hostname	10.49.117.6
+	User	root
+Host PGE_PGE_DM_c003s3008_ora_1p
+	Hostname	10.49.119.1
+	User	root
+Host PGE_PGE_DM_c003s3009_ora_2p
+	Hostname	10.49.119.2
+	User	root
+Host PGE_PGE_DM_c003s3010_ora_1z
+	Hostname	10.149.119.1
+	User	root
+Host PGE_PGE_DM_c003s3011_ora_2z
+	Hostname	10.149.119.2
+	User	root
+Host PGE_PGE_DM_dev_c003s7195
+	Hostname	10.49.118.2
+	User	root
+Host PGE_PGE_DM_test_c003s7194
+	Hostname	10.49.118.1
+	User	root
+Host PGE_PGE_REMIT_c003s1657
+	Hostname	10.43.120.33
+	User	mpiesio
+Host PGE_PGE_REMIT_c003s1737_MRO_prod
+	Hostname	10.43.120.34
+	User	root
+Host PGE_PGE_REMIT_c003s7133_test
+	Hostname	10.49.110.6
+	User	root
+
+# PGNiG
+
+Host PGNiG_zpgluxtradelux_DEV
+	Hostname	10.88.2.193
+	User	mpiesio
+Host PGNiG_zpgluxtradecedrus
+	Hostname	10.88.2.187
+	User	mpiesio
+Host PGNiG_zpgluxtradecornus
+	Hostname	10.88.2.189
+	User	mpiesio
+Host PGNiG_zpgluxtradelux
+	Hostname	10.88.2.186
+	User	mpiesio
+Host PGNiG_zpgluxtrademidoss
+	Hostname	10.88.2.185
+	User	mpiesio
+Host PGNiG_zpgluxtraderemit
+	Hostname	10.88.2.186
+	User	mpiesio
+Host PGNiG_zpgluxtradesalix
+	Hostname	10.88.2.188
+	User	mpiesio
+Host PGNiG_zpgmidossub
+	Hostname	10.88.2.94
+	User	root
+Host PGNiG_zpgluxtradetest1
+	Hostname	10.88.2.191
+	User	mpiesio
+Host PGNiG_zpgluxtrademonit
+	Hostname	10.88.14.97
+	User	root
+
+# PKP
+
+Host PKP_2017_rc-sphieeapp01
+	Hostname	172.20.121.203
+	User	m.piesio
+Host PKP_2017_rc-sphieeapp02
+	Hostname	172.20.121.204
+	User	m.piesio
+Host PKP_PKP_test_oracle
+	Hostname	172.20.121.212
+	User	root
+Host PKP_PKP_test_oracle_2017
+	Hostname	172.20.121.216
+	User	m.piesio
+Host PKP_waw-sphiee01-oradb_2017_DB
+	Hostname	172.20.121.234
+	User	m.piesio
+Host PKP_luxtest
+	Hostname	172.20.121.194
+	User	m.piesio
+Host PKP_PKP_rac1_waw-racsphiee01
+	Hostname	172.20.121.230
+	User	root
+Host PKP_PKP_rac2_test
+	Hostname	172.20.121.212
+	User	root
+Host PKP_PKP_waw-vmsphieeapp01_taxus
+	Hostname	172.20.121.208
+	User	m.piesio
+Host PKP_PKP_waw-vmsphieeapp02_Cedrus
+	Hostname	172.20.121.209
+	User	m.piesio
+Host PKP_waw-sphiee01-oradb_db
+	Hostname	172.20.121.234
+	User	m.piesio
+
+# SKW
+
+Host SKW_SKW_APP1
+	Hostname	10.201.203.11
+	User	irp\tt_admin
+Host SKW_SKW_nagios
+	Hostname	10.201.202.12
+	User	root
+
+# Tauron
+
+Host Tauron_gkkt-remit01v
+	Hostname	10.170.26.66
+	User	mpiesio
+Host Tauron_gkkt-remit01vd
+	Hostname	10.170.26.68
+	User	mpiesio
+Host Tauron_gkkt-shgdb01vt_baza_dev
+	Hostname	10.170.19.231
+	User	mpiesio
+Host Tauron_tauron_luxproxy_gcc-AS4
+	Hostname	192.168.248.35
+	User	apladmin
+Host Tauron_Tauron_gkkt-shgwww01v
+	Hostname	192.168.248.34
+	User	mpiesio
+Host Tauron_Tauron_LDAP
+	Hostname	10.170.19.241
+	User	mpiesio
+Host Tauron_lux1
+	Hostname	10.170.2.21
+	User	mpiesio
+Host Tauron_lux1_gas_test
+	Hostname	10.170.19.229
+	User	mpiesio
+Host Tauron_lux1_gaz
+	Hostname	10.170.19.237
+	User	mpiesio
+Host Tauron_lux1_gaz_dev
+	Hostname	10.170.19.234
+	User	mpiesio
+Host Tauron_lux2
+	Hostname	10.170.2.22
+	User	mpiesio
+Host Tauron_luxpreprod
+	Hostname	10.170.2.89
+	User	mpiesio
+Host Tauron_Tauron_SOHHEE_cedrus
+	Hostname	10.170.27.18
+	User	mpiesio
+Host Tauron_Tauron_SOHHEE_cornus
+	Hostname	192.168.250.130
+	User	ttadmin
+Host Tauron_Tauron_SOHHEE_dev_83
+	Hostname	10.170.2.83
+	User	mpiesio
+Host Tauron_Tauron_SOHHEE_ETRM
+	Hostname	10.170.2.90
+	User	mpiesio
+Host Tauron_Tauron_SOHHEE_pwit_ecportal
+	Hostname	10.170.27.21
+	User	mpiesio
+Host Tauron_Tauron_SOHHEE_salix
+	Hostname	10.170.2.84
+	User	mpiesio
+Host Tauron_Tauron_SOHHEE_taxus
+	Hostname	10.170.27.19
+	User	mpiesio
+Host Tauron_Tauron_SOHHEE_tunel
+	Hostname	10.170.27.21
+	User	ttadmin
+Host Tauron_Tauron_SOHHEE_WIRE
+	Hostname	10.170.27.20
+	User	mpiesio
+Host Tauron_Tauron_test_gkkt-shgapp01vt
+	Hostname	10.170.19.229
+	User	mpiesio
+Host Tauron_Tauron_test_stab_82
+	Hostname	10.170.2.82
+	User	mpiesio
+
+# Tauron_wytwarzanie
+
+Host Tauron_wytwarzanie_sowe1-pke
+	Hostname	172.28.200.103
+	User	mpiesio
+Host Tauron_wytwarzanie_sowe2-pke
+	Hostname	172.28.200.102
+	User	mpiesio
+Host Tauron_wytwarzanie_sowe1-jaw
+	Hostname	192.168.30.1
+	User	mpiesio
+Host Tauron_wytwarzanie_sowe2-jaw
+	Hostname	192.168.30.2
+	User	mpiesio
+Host Tauron_wytwarzanie_sowe1-sie
+	Hostname	172.28.207.101
+	User	mpiesio
+Host Tauron_wytwarzanie_sowe2-sie
+	Hostname	172.28.207.102
+	User	mpiesio
+Host Tauron_wytwarzanie_sowe1-lag
+	Hostname	172.28.205.100
+	User	mpiesio
+Host Tauron_wytwarzanie_sowe2-lag
+	Hostname	172.28.205.102
+	User	mpiesio
+Host Tauron_wytwarzanie_sowe1-laz
+	Hostname	172.28.206.100
+	User	mpiesio
+Host Tauron_wytwarzanie_sowe2-laz
+	Hostname	172.28.206.102
+	User	mpiesio
